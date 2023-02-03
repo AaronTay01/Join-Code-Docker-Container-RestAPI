@@ -1,0 +1,28 @@
+import requests
+
+BASE = "http://159.223.65.52:5000"
+
+# response = requests.delete(BASE + "/joinCode/JKAWEDI", json={"allocationID": "AB123S"})
+# print(response.json())
+# input()
+# response = requests.put(BASE + "/joinCode/JKAESWEDI", json={"allocationID": "6a3e2198-e877-4042-bbee-41a58afd1c98"})
+# print(response.json())
+# input()
+# response = requests.put(BASE + "/joinCode/WEWDSA", json={"allocationID": "6a3e2198-e877-4042-bbee-41a58afd1c98"})
+# print(response.json())
+# input()
+# response = requests.put(BASE + "/joinCode/WESDE", json={"allocationID": "6a3e2198-e877-4042-bbee-41a58afd1c98"})
+# print(response.json())
+# input()
+# response = requests.put(BASE + "/joinCode/WDSQQW", json={"allocationID": "6a3e2198-e877-4042-bbee-41a58afd1c98"})
+# print(response.json())
+# input()
+# response = requests.put(BASE + "/joinCode/JKAESWEEDI/6a3e2198")
+# print(response)
+# input()
+response = requests.get(BASE + "/joinCodes")
+print(response.json())
+input()
+# response = requests.delete(BASE + "/joinCodes")
+# print(response.json())
+# input()
